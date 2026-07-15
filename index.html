@@ -3,123 +3,186 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MiXi PlayzZz | Gaming</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
+<title>MiXi PlayzZz | Ultra Pro Gaming</title>
 
-body{
-background:#0b0b0b;
-color:white;
-}
+<link rel="stylesheet" href="style.css">
 
-header{
-background:linear-gradient(90deg,#00d4ff,#0066ff);
-padding:20px;
-text-align:center;
-box-shadow:0 0 20px cyan;
-}
-
-header h1{
-font-size:40px;
-text-shadow:0 0 15px cyan;
-}
-
-.hero{
-padding:80px 20px;
-text-align:center;
-background:url("https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1500&q=80") center/cover;
-}
-
-.hero h2{
-font-size:45px;
-text-shadow:0 0 15px black;
-}
-
-.hero p{
-margin:20px 0;
-font-size:20px;
-}
-
-.btn{
-display:inline-block;
-padding:15px 35px;
-background:red;
-color:white;
-text-decoration:none;
-border-radius:40px;
-font-size:18px;
-transition:.3s;
-}
-
-.btn:hover{
-background:#00d4ff;
-transform:scale(1.08);
-}
-
-.container{
-width:90%;
-max-width:1100px;
-margin:auto;
-padding:40px 0;
-}
-
-.card{
-background:#161b22;
-padding:25px;
-margin:20px 0;
-border-radius:15px;
-box-shadow:0 0 15px cyan;
-}
-
-.card h2{
-color:#00d4ff;
-margin-bottom:10px;
-}
-
-footer{
-background:#111;
-padding:20px;
-text-align:center;
-margin-top:40px;
-color:#aaa;
-}
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+<div class="loader">
+<div class="spinner"></div>
+<h2>Loading MiXi PlayzZz...</h2>
+</div>
+
 <header>
-<h1>🎮 MiXi PlayzZz</h1>
-<p>BGMI • Gaming • Live Streams • Shorts</p>
+
+<nav>
+
+<div class="logo">
+🎮 MiXi PlayzZz
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#content">Content</a></li>
+<li><a href="#stats">Stats</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
 </header>
 
-<section class="hero">
-<h2>WELCOME GAMERS!</h2>
-<p>India's Next Gaming Creator</p>
+<section id="home" class="hero">
 
-<a class="btn" href="https://youtube.com/@mixiplayzzz" target="_blank">
-📺 Subscribe Now
+<div class="hero-content">
+
+<h1>
+WELCOME TO
+<span>MiXi PlayzZz</span>
+</h1>
+
+<p>
+BGMI • Gaming • Live Streams • Esports • Shorts
+</p>
+
+<div class="hero-buttons">
+
+<a href="https://youtube.com/@mixiplayzzz" class="btn red">
+Subscribe
 </a>
+
+<a href="#about" class="btn blue">
+Explore
+</a>
+
+</div>
+
+</div>
+
 </section>
 
-<div class="container">
+<section id="about" class="glass-section">
+
+<h2 class="section-title">
+ABOUT ME
+</h2>
+
+<div class="glass-card">
+
+<p>
+
+Welcome to the official gaming hub of
+MiXi PlayzZz.
+
+Watch epic BGMI gameplay,
+live streams,
+gaming shorts,
+tips and tricks,
+and tournament action.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="content">
+
+<h2 class="section-title">
+MY CONTENT
+</h2>
+
+<div class="cards">
 
 <div class="card">
-<h2>🎮 About Me</h2>
-<p>
-Welcome to MiXi PlayzZz Official Website.
-Here you'll find BGMI Gameplay, Live Streams,
-Gaming Tips & Tricks and Esports Content.
-</p>
+<h3>🎮 Gameplay</h3>
+<p>High quality gaming videos.</p>
 </div>
 
 <div class="card">
-<h2>🔥 My Content</h2>
+<h3>🔥 Live Streams</h3>
+<p>Live BGMI battles and fun sessions.</p>
+</div>
+
+<div class="card">
+<h3>⚡ Shorts</h3>
+<p>Fast-paced gaming clips.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="stats">
+
+<h2 class="section-title">
+CHANNEL STATS
+</h2>
+
+<div class="stats">
+
+<div class="stat-box">
+<h3 id="subs">0</h3>
+<p>Subscribers</p>
+</div>
+
+<div class="stat-box">
+<h3 id="views">0</h3>
+<p>Views</p>
+</div>
+
+<div class="stat-box">
+<h3 id="videos">0</h3>
+<p>Videos</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">
+FOLLOW ME
+</h2>
+
+<div class="socials">
+
+<a href="https://youtube.com/@mixiplayzzz">
+YouTube
+</a>
+
+<a href="#">
+Instagram
+</a>
+
+<a href="#">
+Discord
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
 <p>
-✔
+© 2026 MiXi PlayzZz
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
